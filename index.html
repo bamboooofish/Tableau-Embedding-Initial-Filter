@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tableau Embedding v3 - Filter All Worksheets</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 40px 0;
+        background-color: #f9f9f9;
+        text-align: center;
+      }
+
+      .center {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <div id="tableauViz"></div>
+    </div>
+
+    <script type="module">
+      import { TableauViz } from 'https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js';
+
+      // Create a TableauViz instance
+      const viz = new TableauViz();
+      viz.src =
+        'https://public.tableau.com/views/addFilter/Region_Only?:language=zh-TW&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link';
+
+      // Apply default filter: Region = Central
+      viz.addFilter('Region', 'Central');
+
+      // Render the viz inside the page
+      document.getElementById('tableauViz').appendChild(viz);
+    </script>
+  </body>
+</html>
