@@ -27,9 +27,9 @@ viz.addFilter('Region', 'Central');
 ## Use it on your dashboard
 To adapt this for your own Tableau dashboard, simply modify these two parts in the code:
 ```javascript
-// 1. Change to your Tableau Public URL
+// 1. Change to your Tableau URL
 viz.src = 'https://public.tableau.com/views/addFilter/Region_Only?:language=zh-TW&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link';
 
-// 2. Update the filter field and value
+// 2. Change the filter field and value
 viz.addFilter('Region', 'Central');
 ```
