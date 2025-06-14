@@ -17,16 +17,13 @@ viz.addFilter('Region', 'Central');
 
 ## Example Links
 
-**Original Tableau (all data):**  
-[Tableau Public](https://public.tableau.com/app/profile/bamboooo.fish/viz/addFilter/Region_Only?publish=yes)
+- **Original Tableau (all data):**  [Tableau Public](https://public.tableau.com/app/profile/bamboooo.fish/viz/addFilter/Region_Only?publish=yes)
 
-**Embedded Version (Central region only):**  
-[View the demo](https://bamboooofish.github.io/Tableau-Embedding-Initial-Filter/)
+- **Embedded Version (Central region only):**  [View the demo](https://bamboooofish.github.io/Tableau-Embedding-Initial-Filter/)
 
 > **Note:** You'll notice that even the "Region & State" Dashboard shows only the Central region data, demonstrating how the filter applies across all worksheets.
 
-## Disclaimer
-This is a lightweight, client-side filtering approach - not enterprise-level security. For production environments with sensitive data, implement proper server-side access controls.
+> **Disclaimer** This is a lightweight, client-side filtering approach - not enterprise-level security. For production environments with sensitive data, implement proper server-side access controls.
 
 ## Use it on your dashboard
 To adapt this for your own Tableau dashboard, simply modify these two parts in the code:
