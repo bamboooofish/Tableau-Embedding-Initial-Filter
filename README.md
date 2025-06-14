@@ -1,7 +1,7 @@
 # Tableau-Embedding-Initial-Filter
 
 A simple demo showing how to embed Tableau visualizations with pre-applied filters for basic data access control.
-> **Disclaimer** This is a lightweight, client-side filtering approach - not enterprise-level security. For production environments with sensitive data, implement proper server-side access controls.
+> **Disclaimer**: This is a lightweight, client-side filtering approach - not enterprise-level security. For production environments with sensitive data, implement proper server-side access controls.
 
 ## Example Links
 
